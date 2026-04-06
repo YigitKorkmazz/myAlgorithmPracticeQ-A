@@ -1,3 +1,4 @@
+package dp;
 public class LIS {
     //Given an integer array nums, return the length of the longest strictly increasing subsequence.
     //BOTTOM UP DP SOLUTION
