@@ -13,7 +13,6 @@ public class MergeOverlappingIntervals {
     public ArrayList<int[]> mergeOverlap(int[][] arr) {
         Arrays.sort(arr, (a,b) -> Integer.compare(a[0], b[0]));
         ArrayList<int[]> res= new ArrayList<>();
-        
         int j = 0;
         res.add(arr[0]);
         
